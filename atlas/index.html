@@ -232,6 +232,17 @@
       AOS.init({
       });
     </script>
+
+    <!-- Sessiontab -->
+    <script type="text/javascript">
+        (function() { if(typeof window.sessiontab != "undefined") return;
+        var s = window.sessiontab = function() { s.api.push(arguments) }, h = document.getElementsByTagName("head")[0], st = document.createElement("script");
+        s.api = new Array(); st.type = "text/javascript"; st.async = 1;
+        st.src = (location.protocol == 'https:' ? 'https' : 'http') + '://cdn.sessiontab.com/tracking.js?' + new Date().getTime();
+        h.appendChild(st); })();
+        sessiontab("init", "4573");
+    </script>
+
 </body>
 
 </html>
